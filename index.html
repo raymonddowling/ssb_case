@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bundle.css">
+    <link rel="stylesheet" href="my.css">
+    <title>Navn Søk</title>
+</head>
+<body>
+    <h1 class="ssb-title">Navn</h1>
+    <div class="container">
+        <div class="ssb-divider type-light"> 
+            <h2 class="ssb-title">Navnesøk</h2>
+            <p>Hvor mange heter det samme som deg?</p>
+            <div class="ssb-input">
+                <label for="inputName">Skriv inn et navn</label>
+                <div class="input-wrapper"><input type="text" name="inputName" id="inputName"></div>
+            </div>
+            <button type="submit" class="ssb-btn primary-btn" onclick="mySearch()">Se Resulatat</button>
+            <div class="ssb-divider type-dark" id="nameResult">
+                <h3 class="ssb-title">Resultat</h3>
+                    
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
